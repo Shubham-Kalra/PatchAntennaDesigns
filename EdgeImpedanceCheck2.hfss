@@ -1,0 +1,1235 @@
+$begin 'AnsoftProject'
+	Created='Thu Mar 28 20:13:22 2019'
+	FileOwnedByWorkbench=false
+	Product='HFSS'
+	NextUniqueID=0
+	MoveBackwards=false
+	$begin 'Desktop'
+		Version(15, 0)
+		InfrastructureVersion(1, 0)
+	$end 'Desktop'
+	$begin 'HFSSEnvironment'
+		Version(1, 0)
+	$end 'HFSSEnvironment'
+	$begin 'HFIEEnvironment'
+		Version(1, 0)
+	$end 'HFIEEnvironment'
+	$begin 'geometry3deditor'
+		Version(1, 0)
+	$end 'geometry3deditor'
+	$begin 'ProjectDatasets'
+		NextUniqueID=0
+		MoveBackwards=false
+		DatasetType='ProjectDatasetType'
+		$begin 'DatasetDefinitions'
+		$end 'DatasetDefinitions'
+	$end 'ProjectDatasets'
+	$begin 'Definitions'
+		$begin 'Folders'
+			Definitions(1104, 10000, 1, 1, 0, false, false)
+			Materials(1104, 9500, 9, 2, 1, false, false)
+		$end 'Folders'
+		$begin 'Materials'
+			$begin 'vacuum'
+				CoordinateSystemType='Cartesian'
+				$begin 'AttachedData'
+				$end 'AttachedData'
+				$begin 'ModifierData'
+				$end 'ModifierData'
+				permittivity='1'
+				ModTime=1028307964
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'vacuum'
+			$begin 'FR4_epoxy'
+				CoordinateSystemType='Cartesian'
+				$begin 'AttachedData'
+				$end 'AttachedData'
+				$begin 'ModifierData'
+				$end 'ModifierData'
+				permittivity='4.4'
+				dielectric_loss_tangent='0.02'
+				thermal_conductivity='0.294'
+				mass_density='1900'
+				specific_heat='1150'
+				youngs_modulus='11000000000'
+				poissons_ratio='0.28'
+				thermal_expansion_coeffcient='1.5e-005'
+				ModTime=1132068239
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'FR4_epoxy'
+		$end 'Materials'
+		$begin 'Scripts'
+		$end 'Scripts'
+	$end 'Definitions'
+	DesignIDServer=2
+	MoveBackwards=false
+	$begin 'HFSSModel'
+		RepRewriteV2=true
+		Name='HFSSDesign1'
+		DesignID=0
+		'Use Advanced DC Extrapolation'=false
+		'Allow Material Override'=false
+		'Calculate Lossy Dielectrics'=true
+		$begin 'TemperatureSettings'
+			IncludeTemperatureDependence=false
+			EnableFeedback=false
+			Temperatures(70, '22cel')
+		$end 'TemperatureSettings'
+		ObjsEnabledForDeformation()
+		SolutionType='DrivenModal'
+		MaterialDensity=1
+		MassOfTissue=1
+		UseAutoDCThickness=true
+		$begin 'OutputVariable'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'OutputVariable'
+		$begin 'ModelSetup'
+			$begin 'Editor3D Doc Preferences'
+				'Plane Background'=true
+				BackgroundColor1=16777215
+				BackgroundColor2=0
+				'Need Lights'=true
+				'Ambient Light'=8355711
+				'Num Lights'=2
+				Light0[4: 8355711, 0.200000002980232, 0.400000005960464, 1]
+				Light1[4: 8355711, -0.200000002980232, -0.400000005960464, -1]
+			$end 'Editor3D Doc Preferences'
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			SnapMode=31
+			WorkingCS=1
+			$begin 'GeometryCore'
+				BlockVersionID=3
+				DataVersion=3
+				NativeKernel='ACIS'
+				NativeKernelVersionID=5
+				Units='mm'
+				InstanceID=-1
+				$begin 'ValidationOptions'
+					EntityCheckLevel='Strict'
+					IgnoreUnclassifiedObjects=false
+					SkipIntersectionChecks=false
+				$end 'ValidationOptions'
+				$begin 'GeometryOperations'
+					BlockVersionID=2
+					$begin 'AnsoftRangedIDServerManager'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=0
+							IDServerRangeMin=0
+							IDServerRangeMax=2146483647
+							NextUniqueID=81
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=1
+							IDServerRangeMin=2146483648
+							IDServerRangeMax=2146485547
+							NextUniqueID=2146483654
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+					$end 'AnsoftRangedIDServerManager'
+					StartBackGroundFaceID=2146483648
+					$begin 'CoordinateSystems'
+					$end 'CoordinateSystems'
+					$begin 'UserDefinedModels'
+					$end 'UserDefinedModels'
+					$begin 'ToplevelParts'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Substrate'
+								Flags=''
+								Color='(128 64 64)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='"FR4_epoxy"'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Box'
+									ID=5
+									ReferenceCoordSystemID=1
+									$begin 'BoxParameters'
+										KernelVersion=5
+										XPosition='0mm'
+										YPosition='0mm'
+										ZPosition='0mm'
+										XSize='51.36mm'
+										YSize='47.63mm'
+										ZSize='1.6mm'
+									$end 'BoxParameters'
+									ParentPartID=6
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=6
+											NumWires=0
+											NumLoops=6
+											NumCoedges=24
+											NumEdges=12
+											NumVertices=8
+										$end 'Topology'
+										BodyID=6
+										StartFaceID=7
+										StartEdgeID=13
+										StartVertexID=25
+										NumNewFaces=6
+										NumNewEdges=12
+										NumNewVertices=8
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Patch'
+								Flags=''
+								Color='(255 128 64)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=33
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='4.8mm'
+										YStart='4.8mm'
+										ZStart='1.6mm'
+										Width='29.44mm'
+										Height='38.03mm'
+										WhichAxis='Z'
+									$end 'RectangleParameters'
+									ParentPartID=34
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=34
+										StartFaceID=-1
+										StartEdgeID=35
+										StartVertexID=39
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=43
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=34
+									$end 'LocalOperationParameters'
+									ParentPartID=34
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=44
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=44
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=1119.6032
+															FcUVMid(19.52, 23.815, 1.6)
+															$begin 'FcTolVts'
+																TolVt(4.8, 4.8, 1.6, 0)
+																TolVt(34.24, 4.8, 1.6, 0)
+																TolVt(34.24, 42.83, 1.6, 0)
+																TolVt(4.8, 42.83, 1.6, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=33
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Feed'
+								Flags=''
+								Color='(255 128 64)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=45
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='34.24mm'
+										YStart='22.29mm'
+										ZStart='1.6mm'
+										Width='17.12mm'
+										Height='3.05mm'
+										WhichAxis='Z'
+									$end 'RectangleParameters'
+									ParentPartID=46
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=46
+										StartFaceID=-1
+										StartEdgeID=47
+										StartVertexID=51
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=55
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=46
+									$end 'LocalOperationParameters'
+									ParentPartID=46
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=56
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=56
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=52.216
+															FcUVMid(42.8, 23.815, 1.6)
+															$begin 'FcTolVts'
+																TolVt(34.24, 22.29, 1.6, 0)
+																TolVt(51.36, 22.29, 1.6, 0)
+																TolVt(51.36, 25.34, 1.6, 0)
+																TolVt(34.24, 25.34, 1.6, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=45
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Port'
+								Flags=''
+								Color='(255 128 64)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=57
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='51.36mm'
+										YStart='18.315mm'
+										ZStart='0mm'
+										Width='11mm'
+										Height='3mm'
+										WhichAxis='X'
+									$end 'RectangleParameters'
+									ParentPartID=58
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=58
+										StartFaceID=-1
+										StartEdgeID=59
+										StartVertexID=63
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=67
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=58
+									$end 'LocalOperationParameters'
+									ParentPartID=58
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=68
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=68
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=33
+															FcUVMid(51.36, 23.815, 1.5)
+															$begin 'FcTolVts'
+																TolVt(51.36, 18.315, 0, 0)
+																TolVt(51.36, 29.315, 2.44249065417534e-015, 0)
+																TolVt(51.36, 29.315, 3, 0)
+																TolVt(51.36, 18.315, 3, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=57
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Ground'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=69
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='51.36mm'
+										YStart='0mm'
+										ZStart='0mm'
+										Width='-51.36mm'
+										Height='47.63mm'
+										WhichAxis='Z'
+									$end 'RectangleParameters'
+									ParentPartID=70
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=70
+										StartFaceID=-1
+										StartEdgeID=71
+										StartVertexID=75
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=79
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=70
+									$end 'LocalOperationParameters'
+									ParentPartID=70
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=80
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=80
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=2446.2768
+															FcUVMid(25.68, 23.815, 0)
+															$begin 'FcTolVts'
+																TolVt(51.36, 0, 0, 0)
+																TolVt(0, 0, 0, 0)
+																TolVt(0, 47.63, 0, 0)
+																TolVt(51.36, 47.63, 0, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=69
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+					$end 'ToplevelParts'
+					$begin 'OperandParts'
+					$end 'OperandParts'
+					$begin 'Planes'
+					$end 'Planes'
+					$begin 'Points'
+					$end 'Points'
+					$begin 'GeometryEntityLists'
+					$end 'GeometryEntityLists'
+					$begin 'CachedNames'
+						$begin 'allobjects'
+							allobjects(-1)
+						$end 'allobjects'
+						$begin 'feed'
+							feed(-1)
+						$end 'feed'
+						$begin 'global'
+							global(-1)
+						$end 'global'
+						$begin 'ground'
+							ground(-1)
+						$end 'ground'
+						$begin 'patch'
+							patch(-1)
+						$end 'patch'
+						$begin 'port'
+							port(-1)
+						$end 'port'
+						$begin 'substrate'
+							substrate(-1)
+						$end 'substrate'
+					$end 'CachedNames'
+				$end 'GeometryOperations'
+				$begin 'GeometryDependencies'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 5)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 33)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 43)
+						DependencyObject('GeometryBodyOperation', 33)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 45)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 55)
+						DependencyObject('GeometryBodyOperation', 45)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 57)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 67)
+						DependencyObject('GeometryBodyOperation', 57)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 69)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 79)
+						DependencyObject('GeometryBodyOperation', 69)
+					$end 'DependencyInformation'
+				$end 'GeometryDependencies'
+			$end 'GeometryCore'
+			GroupByMaterial('-1'=true)
+			GroupSheetByMaterial()
+			$begin 'LastUserInputs'
+			$end 'LastUserInputs'
+		$end 'ModelSetup'
+		$begin 'BoundarySetup'
+			$begin 'GlobalBoundData'
+				PortImpedance='1'
+				GlobalMaterialEnv='vacuum'
+			$end 'GlobalBoundData'
+			$begin 'Boundaries'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'Boundaries'
+			$begin 'ProductSpecificData'
+				$begin 'PMLData'
+					$begin 'PMLGroups'
+					$end 'PMLGroups'
+				$end 'PMLData'
+				$begin 'SortOrder'
+					Port[1: -1]
+					Terminal[1: -1]
+				$end 'SortOrder'
+			$end 'ProductSpecificData'
+		$end 'BoundarySetup'
+		$begin 'ArrayDefinition'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'ArrayDefinition'
+		$begin 'MeshSetup'
+			$begin 'MeshSettings'
+				$begin 'GlobalSurfApproximation'
+					SurfDevChoice=0
+					NormalDevChoice=1
+					AspectRatioChoice=1
+					PullToTrueSurf=false
+					SetFacePreservationLevel=0
+				$end 'GlobalSurfApproximation'
+				MeshMethod='Auto'
+			$end 'MeshSettings'
+			$begin 'MeshOperations'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'MeshOperations'
+		$end 'MeshSetup'
+		$begin 'AnalysisSetup'
+			$begin 'HfssGlobalData'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'HfssGlobalData'
+			$begin 'SolveSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'SolveSetups'
+		$end 'AnalysisSetup'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'Solutions'
+			FieldType='ScatteredFields'
+			IncludePortPostProcessing=false
+			$begin 'Contexts'
+				NextUniqueID=1
+				MoveBackwards=false
+			$end 'Contexts'
+		$end 'Solutions'
+		$begin 'PortFieldDisplay'
+			$begin 'PortFieldDisplay'
+				ScaleFactor=5
+			$end 'PortFieldDisplay'
+		$end 'PortFieldDisplay'
+		$begin 'FieldsReporter'
+			$begin 'FieldsCalculator'
+				Line_Discretization=1000
+			$end 'FieldsCalculator'
+			$begin 'PlotDefaults'
+				Default_SolutionId=-1
+				Default_PlotFolder='Automatic'
+			$end 'PlotDefaults'
+			$begin 'FieldsPlotManagerID'
+				NextUniqueID=0
+				MoveBackwards=false
+				NumQuantityType=0
+				NumPlots=0
+			$end 'FieldsPlotManagerID'
+			$begin 'Report3dInGeomWnd'
+				Report3dNum=0
+			$end 'Report3dInGeomWnd'
+		$end 'FieldsReporter'
+		$begin 'RadField'
+			$begin 'FarFieldSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'FarFieldSetups'
+			$begin 'ArraySetup'
+				UseOption='NoArray'
+				$begin 'RegularArray'
+					NumUCells='10'
+					NumVCells='10'
+					CellUDist='10mm'
+					CellVDist='10mm'
+					UDirnX='1'
+					UDirnY='0'
+					UDirnZ='0'
+					VDirnX='0'
+					VDirnY='1'
+					VDirnZ='0'
+					FirstCellPosX='0mm'
+					FirstCellPosY='0mm'
+					FirstCellPosZ='0mm'
+					Behavior='UseSlaveSettings'
+					ScanAnglePhi='45deg'
+					ScanAngleTheta='45deg'
+					UDirnPhaseShift='0deg'
+					VDirnPhaseShift='0deg'
+				$end 'RegularArray'
+				$begin 'CustomArray'
+					NumCells=0
+					$begin 'Cell'
+					$end 'Cell'
+				$end 'CustomArray'
+			$end 'ArraySetup'
+			$begin 'NearFieldSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'NearFieldSetups'
+			RadFieldComputationVersion=1.4
+			RadfieldHeaderFile='RAD2DC61383615537842021.tmp'
+		$end 'RadField'
+		$begin 'SolutionManager'
+			$begin 'Version ID Map'
+				V=18
+			$end 'Version ID Map'
+		$end 'SolutionManager'
+		$begin 'UserDefinedSolutionMgr'
+			NextUniqueID=1000000
+			MoveBackwards=false
+		$end 'UserDefinedSolutionMgr'
+		$begin 'DatasetSolutionMgr'
+			NextUniqueID=2000000
+			MoveBackwards=false
+		$end 'DatasetSolutionMgr'
+		Notes=$begin_cdata$		$end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+		CacheHeaderFile='HDR38E91383615537850754.tmp'
+	$end 'HFSSModel'
+	$begin 'DataInstances'
+		$begin 'Instance'
+			DesignEditor='HFSSDesign1'
+			$begin 'HfssDesignInstance'
+				DesignInstanceID=1
+				$begin 'WindowPosition'
+					$begin 'EditorWindow'
+						'3D Modeler'(Editor3d(View(WindowPos(3, -1, -1, -8, -31, 0, 0, 1135, 324), OrientationMatrix(0.0279586967080832, -0.400573223829269, 0.434450328350067, 0, 0.590466380119324, 0.00163792038802058, -0.0364900752902031, 0, 0.0235038828104734, 0.435334771871567, 0.399890065193176, 0, -3.30188751220703, 5.78776836395264, -24.2238788604736, 1, 0, -32.3260803222656, 86.1711273193359, -28.220308303833, 22.3835697174072, -90.3563537597656, 117.029098510742), Drawings[5: 'Substrate', 'Patch', 'Feed', 'Port', 'Ground'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+					$end 'EditorWindow'
+				$end 'WindowPosition'
+				$begin 'ReportSetup'
+					$begin 'ReportManager'
+						$begin 'Reports'
+						$end 'Reports'
+						NextUniqueID=0
+						MoveBackwards=false
+						$begin 'NextVersID'
+							NextUniqueID=0
+							MoveBackwards=false
+						$end 'NextVersID'
+					$end 'ReportManager'
+					$begin 'Reports'
+					$end 'Reports'
+					$begin 'ReportsWindowInfoList'
+					$end 'ReportsWindowInfoList'
+				$end 'ReportSetup'
+				$begin 'Properties'
+				$end 'Properties'
+				$begin 'UserDefinedDocument'
+					$begin 'Data'
+					$end 'Data'
+				$end 'UserDefinedDocument'
+			$end 'HfssDesignInstance'
+		$end 'Instance'
+	$end 'DataInstances'
+	$begin 'WBSystemIDToDesignInstanceIDMap'
+	$end 'WBSystemIDToDesignInstanceIDMap'
+	$begin 'WBSysIDSysDetails'
+	$end 'WBSysIDSysDetails'
+	$begin 'WBConnIDConnDetails'
+	$end 'WBConnIDConnDetails'
+$end 'AnsoftProject'
+$begin 'ProjectPreview'
+	Thumbnail64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCABgAGADASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKKKACiiigAooooAKKKKACiii\
+gAoriviV8RPB3wg+HPj/wCLPxE1j/hHvh/8L/BXir4ieOtf/s/VNW/sPwd4J0K/8S+J9Y/srQ7G5vdT\
++zaJpl9P9ns7a4upvI8u3glmZI2/zVf2gf2wfj7+2D+2lqn7W9hq/jH4R/GfxdeaP4U+Eun/AA5+Kfj\
+PRtZ+B3g1dGm8HaF8Nvh58Q7TX7O78PRT6drGuyeIrvS5NG0/Xta8b+I9UOmadZ6zJpkHlZvnGDyXDT\
+xeNmqdClGU5ybUYwp01zVKkpPRRhFXbbS80rtfY8HcFZpxpjKuDy73JU+WKk4ufPWqPlo0Yxj7zlUld\
+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'
+	$begin 'DesignInfo'
+		DesignName='HFSSDesign1'
+		Notes=''
+		Factory='HFSS'
+		IsSolved=false
+		'Nominal Setups'[0:]
+		'Optimetrics Setups'[0:]
+		'Optimetrics Experiment Types'[0:]
+		Image64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCADIAMgDASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKKKACiiigAooooAKKKKACiii\
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii\
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi\
+iigAooooAKKKKACiiigAooooAKKKKAPAv2ov2k/hl+yD8BPiN+0Z8YJ9bi8A/DXTNOu9TtvDWkvrniP\
+WtW8Q6/pPhHwh4W0DTvOhhfW9X8Y+INA0u1lvbmx0y2n1eO51XUdO02K6vrf8AiH8Bf8HDX/BTzwnq3\
+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\
+vFn7F3wF0jTrHWLfXYbn4W+C7X4G+IHvbay1CwjgvPFnwUk8P6rqOjGDU7lpNOuL2XT5p4re5ltXubS\
+0lh/Qyit6WKxNCMoUMROjGe6jOUU/VJpP5jjKUJxqQbhOG0lo16Nar5H89Pj7/g2b/4Jz+MfFureI/D\
+uuftJ/CjRtR+wfY/APgH4m+FdS8JaD9j0yzsLj+yb34pfDbxLr032q6tZ72f7drd7tudRmS1+zWa29p\
+B+a/xE/wCDUbx3beDtYm+G37Zngnxz41T+z/7F8LfET4H6x8OvB2qbtUsU1H+2PGWg/EjxZd6P5Gktf\
+3Fv5Xh/UPtF1aQWsn2WKd722/s+oqJzp1f42Ew9bm+JuhSU53+JyqwhGs5S61FUVS7clNSfMe3huJeI\
+MIkqGcYjljypRnUlVglHZKFVzgo9HHl5WrKSaSR/njfFL/g2z/4KVfDD+wv+EB8K/CT4z/25/af9rf8\
+ACj/jLaeEP+Eb/sz+z/sH/CT/APC4bbwL/aP2z+0Lz7F/Z39qeT/Zd39r+w+ba/a/zw8f/sFf8FCvhD\
+/wms3jj9l79qHQtD+F/wDwkkvjDxNefBLxTr/w50fSvBX21/EGu3XxL0jwpPpeteCbe00y7uH1211qa\
+wubGE6hBqklu63Z/wBUiiuSpl2T1/4mXuilt7GtNPa2v1hYpNf4VF3620PoMH4jcS4RJSqUcV3c6bpt\
+q9/+YeVBX6K6a62bu3/kDw+LPEcTFp4dD1FCpUQQx32jMjEgiU3T3N+JFABHl+SuTIG8wbdr6+m6x4x\
+8Xanofgnwf4P1rWfH/jXX9J8KeDNE8LWs3i3UNc17XLyGz03RtF0m1tEvdU8TXMzyQ2NpBYXInupbaI\
+CUytEP9Zj4pfBr4P8Axx8P2fhP41/Cn4bfGDwrp2sW/iLT/DPxS8C+F/iB4fsfEFpZahptrrtno3izS\
+7u2ttYi07V9Vt47pI1nSDU7iJXEc0it8pWX/BLr/gntpPxu+Hv7RHh/9kj4N+FPip8K3s7nwHqPgzw6\
+3gvwnoerabLrNxpXiZvhd4VurPwtq3jOzutcup7LW77RbnV7O4stPuLa9im0nS5LPk/1fyaVSFR169O\
+EWuanyU5tpNXSrc9KKcltfDy5d3zn0EfFrMPYVacsvUa0oyUZqs3FSa928ZU3Usnu410/5Umedf8ABJ\
+L9gvRf2BP2Ofhn8PdV8O6fY/HPxV4a0jxN8etf2QXGuS+LtQn1XX7L4c3Gr23ifWba68P+Do/E2oaJZ\
+LpV8uiXl5Fq3iSzsra+8Sao9x+ndFFevWqyrVJVJJK9koq/LGMUowhFNu0IRShCN7RhFRWiR+TVKk6t\
+SpVqyc6tWTlKT3lKTblJ+bbbfmwooorIgKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo\
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo\
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo\
+oooAKKKKACiiigD/9k='
+	$end 'DesignInfo'
+$end 'ProjectPreview'
